@@ -1,0 +1,22 @@
+{
+  "name": "casa-de-cambio-v2",
+  "version": "1.0.0",
+  "description": "Obtención de cambios de divisas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo-ade/casa-de-cambio-v2.git"
+  },
+  "author": "Rodrigo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo-ade/casa-de-cambio-v2/issues"
+  },
+  "homepage": "https://github.com/Rodrigo-ade/casa-de-cambio-v2#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha3"
+  }
+}
