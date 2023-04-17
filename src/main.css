@@ -6,3 +6,6 @@
   margin-left: 60px;
 }
 
+.oculto{
+  display: none !important; 
+}
