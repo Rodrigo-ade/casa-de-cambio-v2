@@ -4,7 +4,8 @@
   "description": "Obtención de cambios de divisas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "servir": "http-server -c-1"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/Rodrigo-ade/casa-de-cambio-v2#readme",
   "dependencies": {
-    "bootstrap": "^5.3.0-alpha3"
+    "bootstrap": "^5.3.0-alpha3",
+    "http-server": "^14.1.1"
   }
 }
