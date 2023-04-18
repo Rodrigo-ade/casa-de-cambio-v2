@@ -1,8 +1,7 @@
 import { obtenerSimbolos, obtenerCambiosMoneda } from "./servicios/servicios.js";
-import { actualizarTextoDivisa, ocultarTextosResultados, manejarResultadosDivisas } from "./ui/general.js";
-import { mostrarListadoDivisas } from "./ui/general.js";
-import { actualizarTextosResultados } from "./ui/general.js";
-
+import { actualizarTextoDivisa } from "./ui/general.js";
+import { mostrarListadoDivisas } from "./ui/listado.js";
+import { manejarResultadosDivisas } from "./ui/resultados.js";
 
 export async function iniciar(){
   mostrarListadoDivisas(await obtenerSimbolos(), (simboloDivisa,listaDeDivisa) => {
